@@ -27,7 +27,7 @@ Email|mail
 
 ### Duo Authentication Proxy
 
-Here's my configuration for the Duo proxy, I'm using three IPA servers, if you have less than that then you can just remove the host_2 and host_3 lines. In the cloud section, you can retrieve the values you need there from Users -> Directory Sync -> Authenticaion Proxy in the Duo Admin Portal.
+Here's my configuration for the Duo proxy, I'm using three IPA servers, if you have less than that then you can just remove the host_2 and host_3 lines. In the cloud section, you can retrieve the values you need there from Users -> Directory Sync -> Authenticaion Proxy in the Duo Admin Portal. Remember to restart the service if you modify the configuration file.
 
 **authproxy.cfg**
 ```
