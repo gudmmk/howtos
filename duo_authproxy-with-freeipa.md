@@ -87,9 +87,9 @@ Then we need to apply the changes with: ipa-ldap-updater -u --schema-file=/etc/d
 
 2. Log into your IPA web UI as admin, go to IPA Server, Role-Based Access Control -> Permissions.
 
-Find "System: Read Groups", click Add under Target / Effective attributes and add entrydn.
+Find "System: Read Groups", click Add under Target / Effective attributes and add a attribute called: entrydn
 
-Find "System: Read User IPA Attributes", click Add under Target / Effective attributes and add entrydn.
+Find "System: Read User IPA Attributes", click Add under Target / Effective attributes and add a attribute called: entrydn
 
 ---
 
